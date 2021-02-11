@@ -1,0 +1,25 @@
+html,
+body {
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 0.8em;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #dadada;
+}

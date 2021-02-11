@@ -1,0 +1,31 @@
+{
+
+    "manifest_version": 2,
+    "name": "Firefox Youtube Sorter",
+    "version": "1.0",
+
+    "homepage_url": "https://github.com/ValentinDenis/firefox_youtubesorter",
+    "description": "Allows you to sort videos by most viewed on popular youtube channels where it's disabled",
+
+    "browser_action": {
+        "default_icon": "icons/youtubesorter-48.png",
+        "default_title": "Youtube Sorter",
+        "default_popup": "popup/youtube_sorter_popup.html"
+    },
+
+    "icons": {
+        "48": "icons/youtubesorter-48.png",
+        "96": "icons/youtubesorter-96.png"
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "valentin.denis@protonmail.com"
+        }
+    }
+
+}
